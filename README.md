@@ -1,4 +1,7 @@
-travis-helper-scripts-composer
-==============================
+# DevOPs Helper Scripts
 
-Common Scripts run on TravisCI with the help of Composer
+## Symfony2
+
+* Check `make -f symfony check`
+* PHP Builtin Dev Webserver `make -f symfony webserver`
+* Run all of the above `make -f symfony all`
