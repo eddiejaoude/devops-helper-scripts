@@ -1,0 +1,6 @@
+check:
+  php app/check.php
+  
+webserver:
+  php app/console server:run
+  
