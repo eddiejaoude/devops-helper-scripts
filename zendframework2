@@ -1,2 +1,6 @@
+setup:
+	if [ ! -f composer.phar ]; then php -r "readfile('https://getcomposer.org/installer');" | php; fi;
+	php composer.phar install
+	
 webserver:
 	php app/console server:run
